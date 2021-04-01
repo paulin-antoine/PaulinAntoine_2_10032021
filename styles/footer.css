@@ -1,0 +1,22 @@
+.Footer{
+   width:auto;
+   height: 100%;
+   margin:0%;
+   background-color:#F2F2F2; 
+   margin-left: none;
+}
+.Footer h2{
+    font-size: 1em;
+}
+.Footer-Contain{
+    display: flex;
+    max-width: 1340px;
+    width: 100%;
+    margin:auto;
+}
+.A-Propos,
+.Nos-Hébergements,
+.Assistance{
+    padding-right: 225px;
+    padding-top: 10px;
+}

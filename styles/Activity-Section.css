@@ -1,0 +1,172 @@
+.ActivitySection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "Image-10 Image-11 Image-13 Image-14"
+    "Image-10 Image-12 Image-13 Image-15";
+    width: auto;
+    height: 445px;
+    
+    
+    
+}
+.Img-10-Bottom,
+.Img-11-Bottom,
+.Img-12-Bottom,
+.Img-13-Bottom,
+.Img-14-Bottom,
+.Img-15-Bottom {
+    width: 300Px;
+    height: 55px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+    
+}
+.Img-10-Bottom, .Img-13-Bottom{
+    margin-top: 390px;
+}
+.Img-11-Bottom{
+    margin-top: 180px;
+}
+.Img-12-Bottom{
+    margin-top: 110px;
+}
+.Img-14-Bottom{
+    margin-top: 140px;
+}
+.Img-15-Bottom{
+    margin-top: 155px;
+}
+
+
+.ActivitySection h2{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-left: 10px;
+    
+}
+.ActivityBox-1{
+    grid-area: Image-10;
+    height:445px;
+    width: 300px;
+    
+} 
+.ActivityBox-2{
+    grid-area: Image-11;
+    height: 235px;
+    width:300px;
+    margin-left: 3%;
+}
+.ActivityBox-3{
+    grid-area: Image-12;
+    height: 165px;
+    width :300px;
+    margin-top:43px;
+    margin-left: 3%;
+}
+.ActivityBox-4{
+    grid-area: Image-13;
+    height: 445px;
+    width: 300px;
+    margin-left:6%;
+
+}
+.ActivityBox-5{
+    grid-area: Image-14;
+    height: 195px;
+    width: 300px;
+    margin-left:9%;
+
+}
+.ActivityBox-6{
+    grid-area: Image-15;
+    height: 210px;
+    width: 300px;
+    margin-top:-2px;
+    margin-left:9%;
+}
+.ActivityBox-1,
+.ActivityBox-2,
+.ActivityBox-3,
+.ActivityBox-4,
+.ActivityBox-5,
+.ActivityBox-6 {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 7px silver;
+}
+
+
+        
+
+.Img-10{
+    display: block;
+    height:445px;
+    width: 300px;
+    margin-top:0;
+    border-radius: 15px 15px 20px 20px;
+    background-image:url(../images/Img-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Img-11{
+    display: block;
+    height:235px;
+    width: 300px;
+    margin-top:0;
+    border-radius: 15px 15px 20px 20px;
+    background-image:url(../images/Img-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Img-12{
+    display: block;
+    height:165px;
+    width: 300px;
+    margin-top:0;
+    border-radius: 15px 15px 20px 20px;
+    background-image:url(../images/Img-12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Img-13{
+    display: block;
+    height:445px;
+    width: 300px;
+    margin-top:0;
+    border-radius: 15px 15px 20px 20px;
+    background-image:url(../images/Img-13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Img-14{
+    display: block;
+    height:195px;
+    width: 300px;
+    margin-top:0;
+    border-radius: 15px 15px 20px 20px;
+    background-image:url(../images/Img-14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Img-15{
+    display: block;
+    height:210px;
+    width: 300px;
+    margin-top:0;
+    border-radius: 15px 15px 20px 20px;
+    background-image:url(../images/Img-15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

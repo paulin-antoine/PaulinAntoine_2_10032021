@@ -1,0 +1,57 @@
+
+header{
+   display: flex; 
+   justify-content: space-between; 
+   position: relative;
+   
+   
+}
+
+nav{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   margin-left: 62%;
+   padding-top: 2px;
+   
+  
+}
+nav ul{
+   display: flex;
+
+}
+nav li{
+   list-style: none;
+   padding-left: 65px;
+}
+nav a{
+   color:black;
+   text-decoration: none;
+   font-size: 1.1em;
+}
+nav a:hover{
+   color: #0065FC;
+   border-top:solid 4px;
+   padding-top: 44px;
+
+}
+.Subscribe {
+    font-size: 1.1em;
+    font-weight: 600;
+    color:#0065FC;
+    cursor:pointer;
+}
+@media only screen and (max-width : 376px ) {
+
+   header{
+      
+   }
+   nav a{
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+}
+
+  
+

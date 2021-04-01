@@ -1,0 +1,155 @@
+main h1{
+    font-size: 1.3em;
+    font-weight:bolder;
+}
+main p{
+    font-size: 1.1em;
+
+}
+.SearchField{
+    height:45px;
+    
+    
+}
+.SearchIcon{
+    background-color: #F2F2F2;
+    border:solid 1px;
+    padding:11px 6px 13px 13px;
+    border-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    
+}
+input{
+    
+    height: 45px;  
+    border-style:solid;
+    border-right: none;
+    border-color:#F2F2F2 ;
+} 
+.SearchButton{
+    height: 45px;
+    color:white;
+    border:solid 1px;
+    border-color: #0065FC;
+    background-color: #0065FC ;
+    margin:-5px;
+    border-radius:0 10px 10px 0;
+    cursor:pointer;
+
+   
+    
+}
+
+::placeholder{
+    font-weight: bold;
+    color: black;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.1em;
+}
+
+.Filters{
+    display: flex;
+    flex-wrap: wrap;
+    width:70%;
+    margin-top:20px;
+    justify-content:space-between;
+    
+    
+}
+.Filters p{
+    font-size: 1em;
+    font-weight: bold;
+    margin:0px;
+    padding:11px;
+}
+
+.FiltersItems{
+    position:relative;
+    z-index: 1;
+    border:solid 2px;
+    border-radius: 50px;
+    border-color:#F2F2F2;
+    align-items:center;
+    font-weight:bold;
+    font-size: 1em;
+    padding-left:40px;
+    cursor: pointer;
+    
+}
+.FiltersItems:hover{
+   transition:linear 1.1s;
+   background-color: #DEEBFF;
+   border-color: #DEEBFF;
+   
+
+}
+.FiltersItems p{
+    margin:0px;
+    padding:10px;
+}
+.Icons{
+    position:absolute;
+    z-index: 2;
+    left:-1px;
+    top:-1px;
+    width:40px;
+    height:40px;
+    border:solid 1px;
+    border-radius: 50%;
+    border-color:#DEEBFF;
+    background-color: #DEEBFF;
+
+}
+.Icons i{
+    margin:25%;
+    color:#0065FC ;
+}
+.Icons [class="fas fa-money-bill-wave"]{
+    margin-top: 12px;
+}
+.Icons [class="fas fa-child"]{
+    margin-left:14px;
+    margin-top: 12px;
+}
+.Icons [class="fas fa-heart"]{
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.RemainingNumber{
+    display:flex;
+    align-items: center;
+    
+}
+
+.IconInfo i{
+    font-size:0.9em;
+    color:#0065FC ;
+    border: solid 2px silver;
+    border-radius: 100%;
+    padding: 4px 8px 4px 8px;
+
+    
+}
+.RemainingNumber p{
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+    
+
+
+
+    
+    
+
+    
+    
+    
+    
+
