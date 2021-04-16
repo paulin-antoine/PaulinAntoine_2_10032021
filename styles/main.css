@@ -1,31 +1,33 @@
 main h1{
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight:bolder;
 }
-main p{
-    font-size: 1.1em;
 
+main p{
+    font-size: 1.2em;
 }
+
 .SearchField{
     height:45px;
-    
-    
+    width: 100%;
 }
+
 .SearchIcon{
     background-color: #F2F2F2;
     border:solid 1px;
     padding:11px 6px 13px 13px;
     border-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
-    
 }
+
 input{
-    
+    width: 200px;
     height: 45px;  
     border-style:solid;
     border-right: none;
     border-color:#F2F2F2 ;
 } 
+
 .SearchButton{
     height: 45px;
     color:white;
@@ -34,17 +36,27 @@ input{
     background-color: #0065FC ;
     margin:-5px;
     border-radius:0 10px 10px 0;
-    cursor:pointer;
+    cursor:pointer;  
+}
 
-   
-    
+.SearchButtonMedia{
+    display:none;
+    height: 45px;
+    width: 45px;
+    color:white;
+    border:solid 1px;
+    border-color: #0065FC;
+    background-color: #0065FC ;
+    margin:none;
+    border-radius:10px 10px 10px 10px;
+    cursor:pointer;  
 }
 
 ::placeholder{
     font-weight: bold;
     color: black;
     font-family: 'Raleway',sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .Filters{
@@ -53,9 +65,13 @@ input{
     width:70%;
     margin-top:20px;
     justify-content:space-between;
-    
-    
 }
+
+.FiltersTitle{
+    display:inline;
+    font-weight: bold;
+}
+
 .Filters p{
     font-size: 1em;
     font-weight: bold;
@@ -73,20 +89,20 @@ input{
     font-weight:bold;
     font-size: 1em;
     padding-left:40px;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
+
 .FiltersItems:hover{
    transition:linear 1.1s;
    background-color: #DEEBFF;
    border-color: #DEEBFF;
-   
-
 }
+
 .FiltersItems p{
     margin:0px;
     padding:10px;
 }
+
 .Icons{
     position:absolute;
     z-index: 2;
@@ -98,19 +114,22 @@ input{
     border-radius: 50%;
     border-color:#DEEBFF;
     background-color: #DEEBFF;
-
 }
+
 .Icons i{
     margin:25%;
     color:#0065FC ;
 }
+
 .Icons [class="fas fa-money-bill-wave"]{
     margin-top: 12px;
 }
+
 .Icons [class="fas fa-child"]{
     margin-left:14px;
     margin-top: 12px;
 }
+
 .Icons [class="fas fa-heart"]{
     margin-left: 12px;
     margin-top: 12px;
@@ -118,8 +137,7 @@ input{
 
 .RemainingNumber{
     display:flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .IconInfo i{
@@ -127,20 +145,90 @@ input{
     color:#0065FC ;
     border: solid 2px silver;
     border-radius: 100%;
-    padding: 4px 8px 4px 8px;
-
-    
+    padding: 4px 8px 4px 8px; 
 }
+
 .RemainingNumber p{
     padding-left: 10px;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 
+@media screen and (max-width: 1120px){
 
+    .FiltersItems{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 900px){
 
+   
+    .SearchButton{
+        display: none;
+        height: 45px;
+        color:white;
+        border:solid 1px;
+        border-color: #0065FC;
+        background-color: #0065FC ;
+        margin:-5px;
+        border-radius:0 10px 10px 0;
+        cursor:pointer;  
+    }
 
+    .SearchButtonMedia{
+        display:inline;
+        height: 45px;
+        width: 45px;
+        color:white;
+        border:solid 1px;
+        border-color: #0065FC;
+        background-color: #0065FC ;
+        margin:-5px;
+        border-radius:10px 10px 10px 10px;
+        cursor:pointer;  
+    }
+    
+    .FiltersTitle{
+        display: block;
+        width: 100%;
+    }
 
+    .Filters{
+        display: flex;
+        flex-wrap: wrap;
+        width:90%;
+        margin-top:20px;
+        justify-content:space-between;
+    }
+
+@media screen and (max-width: 780px){
+
+    main{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+@media screen and (max-width: 530px){
+
+    .SearchField{
+        width:100%;
+    }
+
+    input{
+        height: 45px;
+        width: 75%;   
+    }
+
+}
+@media screen and (max-width: 280px){
+
+    input{
+        height: 45px;
+        width: 60%;   
+    }
+    
+}
     
 
 

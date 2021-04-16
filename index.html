@@ -4,85 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href= "styles/header.css">
+    <link rel="stylesheet" href= "styles/Header.css">
     <link rel="stylesheet" href= "styles/body.css">
     <link rel="stylesheet" href= "styles/main.css">
     <link rel="stylesheet" href= "styles/First-Section.css">
     <link rel="stylesheet" href= "styles/Most-Popular.css">
     <link rel="stylesheet" href= "styles/Activity-Section.css">
     <link rel="stylesheet" href= "styles/footer.css">
+    <link rel="stylesheet" href= "styles/HousingBox.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/10dc6e6913.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
+
 <body>
-    <div id="Container">
-        
-     <header>
-
+   <header>
+          <div class="LogoDuSite">
             <img src="images/Reservia.svg" alt="Logo du site">
-            <nav>
-            <ul>
-                <li><a href="#Housing">Hébergements</a></li>
-                <li><a href="#Activity">Activités</a></li>  
-            </ul>
-            </nav>
+          </div>
+          
+          <div class="HousingLink">
+            <a href="#Housing">Hébergements</a>
+          </div>
+            
+          <div class="ActivityLink">
+            <a href="#Activity">Activités</a> 
+          </div>  
+            
+          <div class="SubscribeSection">
             <p class="Subscribe">S'inscrire</p>
-
-     </header>
-
-     <br>
-
-      <main>
-
-         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-         <p>En plein centre ville où en pleine nature</p>
-
-          <div class="SearchField">
-            <span class="SearchIcon">
-                <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
-            </span>
-             <input class="CitySearched" type="search" placeholder=" Marseille, France"> 
-             <button class="SearchButton">Rechercher</button>
           </div>
 
-          <div class="Filters">
-            <p><span class="FiltersTitle">Filtres</span></p>
+   </header>       
+        
+   <div id="Container">
 
-               <div class="FiltersItems">
-                <span class="Icons"><i class="fas fa-money-bill-wave"></i></span>
-                <p>Économique</p>
-               </div>
+    <br>
+            
+    <main>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville où en pleine nature</p> <br>
 
-               <div class="FiltersItems">
-                <span class="Icons"><i class="fas fa-child"></i></span>
-                <p>Famillial</p>
-               </div>
+            <div class="SearchField">
+              <span class="SearchIcon">
+                  <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+              </span>
+              <input class="CitySearched" type="search" placeholder=" Marseille, France"> 
+              <button class="SearchButton">Rechercher</button>
+              <button class="SearchButtonMedia"><i class="fas fa-search"></i></button>
+            </div> <br>
 
-               <div class="FiltersItems">
-                <span class="Icons"><i class="fas fa-heart"></i></span>
-                <p>Romantique</p>
-               </div>
+            <div class="Filters">
+              <div class="FiltersTitle"><p>Filtres</p></div>
 
-               <div class="FiltersItems">
-                <span class="Icons"><i class="fas fa-dog"></i></span>
-                <p>Animaux autorisés</p>
-               </div>
-               </div> <br>
+                <div class="FiltersItems">
+                  <span class="Icons"><i class="fas fa-money-bill-wave"></i></span>
+                  <p>Économique</p>
+                </div>
 
-               <div class="RemainingNumber">
-                <span class="IconInfo"><i class="fas fa-info"></i></span>
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>
-           </div>
- 
-        </main>
+                <div class="FiltersItems">
+                  <span class="Icons"><i class="fas fa-child"></i></span>
+                  <p>Famillial</p>
+                </div>
+
+                <div class="FiltersItems">
+                  <span class="Icons"><i class="fas fa-heart"></i></span>
+                  <p>Romantique</p>
+                </div>
+
+                <div class="FiltersItems">
+                  <span class="Icons"><i class="fas fa-dog"></i></span>
+                  <p>Animaux autorisés</p>
+                </div>
+                </div> <br>
+
+                <div class="RemainingNumber">
+                  <span class="IconInfo"><i class="fas fa-info"></i></span>
+                  <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+      </main>
+          
+     
+         
+
+      
 
         <section class="FirstSection">
-          <div class="HousingBox">
+          <div id="Housing" class="HousingBox">
                 <h1>Hébergement à Marseille</h1>
-                <div class="Grid-1">
-                 
+
+              <div class="Grid-1">
+
                  <div class="BoxModel-1">
+                   <a href="#">
                   <div class="Img-1"></div>
                    <div class="BoxBottom-1">
                     <div class="Title-1">
@@ -96,9 +110,13 @@
                         </p> 
                      </div>
                     </div>
-                   </div>
+                  </a>
+                </div>
+                  
 
-                   <div class="BoxModel-1">
+                  
+                  <div class="BoxModel-1">
+                   <a href="#">
                     <div class="Img-2"></div>
                      <div class="BoxBottom-1">
                       <div class="Title-1">
@@ -112,9 +130,13 @@
                          </p>                          
                      </div>
                     </div>
-                   </div>
+                   </a>
+                  </div>
+                  
 
-                   <div class="BoxModel-1">
+                  
+                <div class="BoxModel-1">
+                  <a href="#">
                     <div class="Img-3"></div>
                      <div class="BoxBottom-1">
                       <div class="Title-1">
@@ -128,9 +150,13 @@
                          </p>                          
                      </div>
                     </div>
-                   </div>
+                   </a>
+                  </div>
+                
 
-                   <div class="BoxModel-1">
+                  
+                <div class="BoxModel-1">
+                  <a href="#">
                     <div class="Img-4"></div>
                      <div class="BoxBottom-1">
                       <div class="Title-1">
@@ -144,9 +170,13 @@
                          </p>                          
                      </div>
                     </div>
-                   </div>
+                   </a>
+                  </div>
+                  
 
-                   <div class="BoxModel-1">
+                  
+                <div class="BoxModel-1">
+                  <a href="#">
                     <div class="Img-5"></div>
                      <div class="BoxBottom-1">
                       <div class="Title-1">
@@ -160,9 +190,13 @@
                          </p>                          
                      </div>
                     </div>
-                   </div>
+                   </a>
+                  </div>
+                  
 
-                   <div class="BoxModel-1">
+                  
+                <div class="BoxModel-1">
+                  <a href="#">
                     <div class="Img-6"></div>
                      <div class="BoxBottom-1">
                       <div class="Title-1">
@@ -176,10 +210,15 @@
                          </p>                          
                      </div>
                     </div>
-                   </div>
-                   
-                 </div>
-                 <span class="ViewMore">Afficher plus</span>
+                   </a>
+                  </div>
+                                    
+                </div>
+
+                <span class="ViewMore">
+                 <h3>Afficher plus</h3>
+                </span>
+
             </div>
                   
 
@@ -192,16 +231,16 @@
              <div class="MostPopularTitle">
                 <h1>Les plus populaires</h1>
                 <i class="fas fa-chart-line"></i>
-                 </div>
+              </div>
 
                 <div class="Grid-2">
-
+                              
                 <div class="BoxModel-2">
-                    <div class="Img-7"></div>
-                     <div class="BoxBottom-2">
+                  <a href="#">
+                   <div class="Img-7"></div>
+                    <div class="BoxBottom-2">
                       <div class="Title-2">
                          <h2>Hôtel le soleil du <br>matin</h2>
-                             
                           <p>
                              Nuit à partir de 128€<br>
                             <i class="fas fa-star fa-active"></i>
@@ -212,9 +251,15 @@
                           </p> 
                        </div>
                       </div>
-                     </div>
+                     </a>
+                    </div>
+                    
+                 
+                    
 
-                     <div class="BoxModel-2">
+                    
+                <div class="BoxModel-2">
+                      <a href="#">
                         <div class="Img-8"></div>
                          <div class="BoxBottom-2">
                           <div class="Title-2">
@@ -229,9 +274,13 @@
                               </p> 
                            </div>
                           </div>
-                         </div>
+                         </a>
+                        </div>
+                             
                         
-                         <div class="BoxModel-2">
+                        
+                          <div class="BoxModel-2">
+                           <a href="#">
                             <div class="Img-9"></div>
                              <div class="BoxBottom-2">
                               <div class="Title-2">
@@ -246,99 +295,118 @@
                                   </p> 
                                </div>
                               </div>
-                             </div>
-                </div>      
-            </div>
+                             </a>
+                            </div>
+                            
 
+                        </div>      
+                      </div>
+                    </section>
+                   
 
-        </section>
-
-        <section class="ActivitySection">
+        <section id="Activity">
+          <div class="ActivitySection">
             <h1>Activités à Marseille</h1>
 
           <div class="Grid-3">
-
+           
             <div class="ActivityBox-1">
-              <div class="Img-10">
+              <a href="#">
+               <div class="Img-10"></div>
                 <div class="Img-10-Bottom">
                  <h2>Vieux Port</h2>
-              </div>
-             </div>
+                </div>
+              </a>
             </div>
-
+             
+            
+            
             <div class="ActivityBox-2">
-              <div class="Img-11">
+              <a href="#">
+               <div class="Img-11"></div>
                 <div class="Img-11-Bottom">
                  <h2>Fort de Pomègues</h2>
-                 </div>
-              </div>
+                </div>
+              </a>
             </div>
-
+            
+              
+           
+            
             <div class="ActivityBox-3">
-              <div class="Img-12">
+              <a href="#">
+               <div class="Img-12"></div>
                 <div class="Img-12-Bottom">
                  <h2>Iles du Frioul</h2>
                 </div>
-              </div>
+              </a>
             </div>
-
+             
+            
+            
             <div class="ActivityBox-4">
-              <div class="Img-13">
+              <a href="#">
+               <div class="Img-13"></div>
                 <div class="Img-13-Bottom">
                  <h2>Parc national des Calanques</h2>
                 </div>
-              </div>
+              </a>
             </div>
-
+            
+            
+            
             <div class="ActivityBox-5">
-              <div class="Img-14">
+              <a href="#">
+               <div class="Img-14"></div>
                 <div class="Img-14-Bottom">
                  <h2>Notre-Dame-de-la-Garde</h2>
                 </div>
-              </div>
+              </a>
             </div>
-
+            
+            
+            
             <div class="ActivityBox-6">
-              <div class="Img-15">
+              <a href="#">
+               <div class="Img-15"></div>
                 <div class="Img-15-Bottom">
                  <h2>Parc Longchamps</h2>
                 </div>
-              </div>
+              </a>
             </div>
-
+              
+           
           </div>
-        </section> 
-        </div> 
+        </div>
+      </section> 
+    </div> 
         
         <footer class="Footer">
           <div class="Footer-Contain">
-          <div class="A-Propos">
-            <h2>À propos</h2>
-            <p>Fonctionnement du site</p>
-            <p>Conditions générales de vente</p>
-            <p>Données et confidentialités</p>
-          </div>
+
+            <div class="A-Propos">
+              <h2>À propos</h2>
+                <p>Fonctionnement du site</p>
+                <p>Conditions générales de vente</p>
+                <p>Données et confidentialités</p>
+            </div>
 
           <div class="Nos-Hébergements">
             <h2>Nos Hébergements</h2>
-            <p>Charte qualité</p>
-            <p>Soumettre votre hôtel</p>
+              <p>Charte qualité</p>
+              <p>Soumettre votre hôtel</p>
           </div>
 
           <div class="Assistance">
             <h2>Assistance</h2>
-            <p>Centre d'aide</p>
-            <p>Nous contacter</p>
-
-            </div>
+              <p>Centre d'aide</p>
+              <p>Nous contacter</p>
+          </div>
           
+        </div>
+      </footer>  
 
-        </footer>
-
-
-
-        
     </div>
+  </body>
 
-</body>
 </html>

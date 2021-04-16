@@ -1,15 +1,50 @@
 body{
+    width: auto;
+    height: auto;
     font-family: 'Raleway',sans-serif;
     justify-content: center;
     margin-top: 30px;
     margin-left: 0;
-    margin-right: 0;
-    
+    margin-right: 0; 
 }
+
 #Container{
-    width: 100%;
-    max-width: 1340px;
-    margin:auto;
-    
-    
+    width: 1345px;
+    margin: auto;   
 }
+
+#Container h1{
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 1380px){
+    
+    
+    #Container{
+        width:auto;
+        height:auto;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    #Container{
+        width: auto;
+        height: auto;
+        margin-left: 0; 
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 530px){
+
+    #Container{
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+

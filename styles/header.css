@@ -1,57 +1,135 @@
 
 header{
-   display: flex; 
-   justify-content: space-between; 
-   position: relative;
-   
-   
+   display: grid; 
+   grid-template-columns: 1fr 250px 125px;
+   grid-template-rows: 1fr;
+   grid-template-areas: 
+   "LogoDuSite Link Subscribe";
+   max-width: 1345px;
+   width: auto;
+   height: auto;
+   margin: auto; 
 }
 
-nav{
-   display: flex;
-   align-items: center;
-   position: absolute;
-   margin-left: 62%;
-   padding-top: 2px;
-   
-  
+.LogoDuSite{
+   grid-area: LogoDuSite;
 }
-nav ul{
-   display: flex;
 
+.HousingLink{
+   grid-area: Link;
+   justify-self: start ;
+   align-self:center;
 }
-nav li{
-   list-style: none;
-   padding-left: 65px;
+
+.ActivityLink{
+   grid-area: Link;
+   justify-self: end;
+   align-self: center;
 }
-nav a{
-   color:black;
+
+.HousingLink a,
+.ActivityLink a{
+   color: black;
    text-decoration: none;
    font-size: 1.1em;
+   font-weight: bold;
 }
-nav a:hover{
-   color: #0065FC;
-   border-top:solid 4px;
-   padding-top: 44px;
 
+.HousingLink a:hover,
+.ActivityLink a:hover{
+   color:#0065FC;
+   padding-top: 43px;
+   border-top: solid #0065FC 5px;
 }
-.Subscribe {
+
+.ActivityLink:hover{
+   text-decoration: none;
+}
+
+.SubscribeSection {
+    grid-area: Subscribe;
+    margin-right: 0px;
     font-size: 1.1em;
     font-weight: 600;
     color:#0065FC;
     cursor:pointer;
+    justify-self: end;
 }
-@media only screen and (max-width : 376px ) {
+
+
+@media screen and (max-width: 1380px){
 
    header{
-      
+      margin-left: 50px;
+      margin-right: 50px;
    }
-   nav a{
-      display: flex;
-      flex-wrap: wrap;
+   
+}
+@media screen and (max-width: 900px){
+
+   header{
+      display: grid; 
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: 
+      "LogoDuSite Subscribe"
+      "Link Link";
+      width: 100%;
+      height: auto;
+      margin: 0;
    }
 
+   .HousingLink{
+      grid-area: Link;
+      width: 50%;
+      justify-self: center;
+      align-self:center;
+      border-bottom: solid#F2F2F2 5px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      margin-right: 50%;
+      text-align: center;    
+   }
+
+   .LogoDuSite{
+      padding-left: 5%;
+   }
+
+   .SubscribeSection{
+      padding-right: 5%;
+   }
+
+   .ActivityLink{
+      grid-area: Link;
+      width: 50%;
+      justify-self: center;
+      align-self: center;
+      border-bottom: solid#F2F2F2 5px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      margin-left: 50%;
+      text-align: center;
+      }
+   
+   .HousingLink a:hover,
+   .ActivityLink a:hover{
+      color:#0065FC;
+      padding-top: 43px;
+      border-top: none; 
+   }
+
+   .HousingLink:hover,
+   .ActivityLink:hover {
+      border-bottom:solid #0065FC 5px ;
+   }
+
+   .HousingLink:hover a,
+   .ActivityLink:hover a{
+      color: #0065FC;
+   }
 }
 
-  
+
+
+
 

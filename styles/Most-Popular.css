@@ -1,41 +1,60 @@
 .MostPopular{
-    width:420px ;
-    height: 625px;
+    width: 32%;
+    height: 100%;
     background-color:#F2F2F2 ;
     border-radius: 10px;
 }
+
 .MostPopularTitle{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0px 41px 30px 0px;
+    margin-left: 4%;
+    margin-right: 8%;
+    margin-bottom: 4%;
 }
+
 .MostPopularTitle [class="fas fa-chart-line"]{
     font-size: 1.3em;
+    margin-top: 6%;
 }
+
 .Grid-2{
-    max-width: 380px;
-    height:auto;
-    margin:auto;
-    margin-top: -30px;
-    justify-content: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 345px);
+    width: 95%;
+    height:90%;
+    margin:auto;
+    justify-content: center;
+    grid-template-columns: 90%;
+    grid-template-rows: 27% 27% 27%;
     grid-gap:30px;
 }
+
 .BoxModel-2{
-    display: flex;
-    justify-content: center;
-    width: 335px;
-    height:135px;
+    display:flex;
+    width: auto;
+    height:auto;
     border:solid white 5px;
     border-radius: 20px;
     box-shadow: 5px 5px 7px silver;
 }
 
+.BoxModel-2 a{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.BoxModel-2:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .BoxBottom-2{
-    width:208px;
-    height:135px;
+    width: 60%;
+    height:auto;
     background-color:white;
     padding-left:10px;
     border-radius:0 15px 15px 0;
@@ -43,8 +62,8 @@
 
 .Img-7{
     display: block;
-    height:135px;
-    width: 127px;
+    height: 100%;
+    width: 40%;
     margin-top:0;
     border-radius: 15px 0 0 15px;
     background-image:url(../images/Img-7.jpg);
@@ -52,10 +71,11 @@
     background-size: cover;
     background-position: center;
 }
+
 .Img-8{
     display: block;
-    height:135px;
-    width: 127px;
+    height:100%;
+    width: 40%;
     margin-top:0;
     border-radius: 15px 0 0 15px;
     background-image:url(../images/Img-8.jpg);
@@ -63,10 +83,11 @@
     background-size: cover;
     background-position: center;
 }
+
 .Img-9{
     display: block;
-    height:135px;
-    width: 127px;
+    height:100%;
+    width: 40%;
     margin-top:0;
     border-radius: 15px 0 0 15px;
     background-image:url(../images/Img-9.jpg);
@@ -74,7 +95,101 @@
     background-size: cover;
     background-position: center;
 }
+
 .Title-2 i {
     font-size: 1em;
     padding-top: 40px;
+}
+
+@media screen and (max-width: 1380px){
+
+    .MostPopular{
+        width: 100%;
+        height: 400px;
+        margin-bottom:30px; 
+    }
+
+    .Title-2 i {
+        padding-top: 60px;
+    }
+
+    .MostPopularTitle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 3%;
+        margin-bottom: 4%;
+    }
+
+    .MostPopularTitle [class="fas fa-chart-line"]{
+        margin-top: 2%;
+    }
+
+    .Grid-2{
+        display: grid;
+        width: 95%;
+        height:45%;
+        margin:auto;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap:30px;
+    }
+}
+
+@media screen and (max-width: 1160px){
+
+    .MostPopular{
+        width: 100%;
+        height: 750px;
+        margin-bottom:30px;
+
+    }
+
+    .Grid-2{
+        display: grid;
+        width: 60%;
+        height:80%;
+        margin:auto;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap:30px;
+    }
+    .MostPopularTitle{
+
+        width: 60%;
+        margin-left: 19%
+    }
+}
+
+@media screen and (max-width: 780px){
+
+    .MostPopular{
+        border-radius: 0;
+    }
+
+    .MostPopularTitle [class="fas fa-chart-line"]{
+        margin-top: 7%;
+    }
+}
+
+@media screen and (max-width: 530px){
+
+    .Grid-2{
+        display: grid;
+        width: 90%;
+        height:80%;
+        margin:auto;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap:30px;
+    }
+    .MostPopularTitle{
+
+        width: 90%;
+        margin-left: 3%;
+    }
 }
