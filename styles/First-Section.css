@@ -8,28 +8,28 @@
     margin-top: 10px;
 }
 
-.FirstSection h1{
+.FirstSection h1 {
     font-size: 1.3em;
     margin-left: 4%;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.FirstSection h2{
+.FirstSection h2 {
     font-size: 1em;
 }
 
-.FirstSection p{
+.FirstSection p {
     font-size:0.9em;
 }
 
-.FirstSection i{
+.FirstSection i {
     font-size: 0.7em;;
 }
 
-@media screen and (max-width: 1380px){
+@media screen and (max-width: 1380px) {
 
-    .FirstSection{
+    .FirstSection {
         display: flex;
         width: 100%;
         height: auto;

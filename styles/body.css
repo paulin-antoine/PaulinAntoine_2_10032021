@@ -1,4 +1,4 @@
-body{
+body {
     width: auto;
     height: auto;
     font-family: 'Raleway',sans-serif;
@@ -8,19 +8,19 @@ body{
     margin-right: 0; 
 }
 
-#Container{
+#Container {
     width: 1345px;
     margin: auto;   
 }
 
-#Container h1{
+#Container h1 {
     font-size: 1.3em;
 }
 
-@media screen and (max-width: 1380px){
+@media screen and (max-width: 1380px) {
     
     
-    #Container{
+    #Container {
         width:auto;
         height:auto;
         margin-left: 50px;
@@ -28,7 +28,7 @@ body{
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
     #Container{
         width: auto;
@@ -38,9 +38,9 @@ body{
     }
 }
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 530px) {
 
-    #Container{
+    #Container {
         width: auto;
         height: auto;
         margin-left: 0;

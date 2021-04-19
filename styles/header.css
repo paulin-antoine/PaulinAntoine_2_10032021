@@ -1,5 +1,5 @@
 
-header{
+header {
    display: grid; 
    grid-template-columns: 1fr 250px 125px;
    grid-template-rows: 1fr;
@@ -11,30 +11,30 @@ header{
    margin: auto; 
 }
 
-.LogoDuSite{
+.LogoDuSite {
    grid-area: LogoDuSite;
 }
 
-.HousingLink{
+.HousingLink {
    grid-area: Link;
    justify-self: start ;
    align-self:center;
 }
 
-.ActivityLink{
+.ActivityLink {
    grid-area: Link;
    justify-self: end;
    align-self: center;
 }
 
 
-.ActivityLink a{
+.ActivityLink a {
    color: black;
    text-decoration: none;
    font-size: 1.1em;
    font-weight: bold;
 }
-.HousingLink a{
+.HousingLink a {
    color: #0065FC;
    text-decoration: none;
    font-size: 1.1em;
@@ -44,7 +44,7 @@ header{
 }
 
 .HousingLink a:hover,
-.ActivityLink a:hover{
+.ActivityLink a:hover {
    color:#0065FC;
    padding-top: 43px;
    border-top: solid #0065FC 5px;
@@ -61,7 +61,7 @@ header{
 }
 
 
-@media screen and (max-width: 1380px){
+@media screen and (max-width: 1380px) {
 
    header{
       margin-left: 50px;
@@ -69,7 +69,7 @@ header{
    }
    
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
 
    header{
       display: grid; 
@@ -83,7 +83,7 @@ header{
       margin: 0;
    }
 
-   .HousingLink{
+   .HousingLink {
       grid-area: Link;
       width: 50%;
       justify-self: center;
@@ -95,15 +95,15 @@ header{
       text-align: center;    
    }
 
-   .LogoDuSite{
+   .LogoDuSite {
       padding-left: 5%;
    }
 
-   .SubscribeSection{
+   .SubscribeSection {
       padding-right: 5%;
    }
 
-   .ActivityLink{
+   .ActivityLink {
       grid-area: Link;
       width: 50%;
       justify-self: center;
@@ -115,12 +115,12 @@ header{
       text-align: center;
    }
    
-   .HousingLink a{
+   .HousingLink a {
       border-top: none;
    }
    
    .HousingLink a:hover,
-   .ActivityLink a:hover{
+   .ActivityLink a:hover {
       color:#0065FC;
       padding-top: 43px;
       border-top: none; 
@@ -132,7 +132,7 @@ header{
    }
 
    .HousingLink:hover a,
-   .ActivityLink:hover a{
+   .ActivityLink:hover a {
       color: #0065FC;
    }
 }

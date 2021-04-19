@@ -1,15 +1,15 @@
-.HousingBox{
+.HousingBox {
     width: 65%;
     height: auto;
     background-color:#F2F2F2 ;
     border-radius: 10px;
 }
 
-.HousingBox h1{
+.HousingBox h1 {
     margin-bottom: 4%;
 }
 
-.Grid-1{
+.Grid-1 {
     width: 95%;
     height: auto;
     margin: auto;
@@ -19,7 +19,7 @@
     grid-gap: 30px;
 }
 
-.BoxModel-1{
+.BoxModel-1 {
     width: auto;
     height:auto;
     border:solid white 5px;
@@ -27,7 +27,7 @@
     box-shadow: 5px 5px 7px silver;
 }
 
-.BoxModel-1 a{
+.BoxModel-1 a {
     display:block;
     width: 100%;
     height: 100%;
@@ -35,12 +35,12 @@
     color: black;
 }
 
-.BoxModel-1:hover{
+.BoxModel-1:hover {
     transform: scale(1.05);
     transition: 0.5s;
 }
 
-.BoxBottom-1{
+.BoxBottom-1 {
     width:auto;
     height:90px;
     background-color:white;
@@ -50,28 +50,28 @@
     border-radius:0 0 15px 15px;
 }
 
-.fa-active{
+.fa-active {
     color: blue;
 }
 
-.fa-inactive{
+.fa-inactive {
     color: silver;
 }
 
-.Title-1 i{
+.Title-1 i {
     font-size: 1em;;
     padding-top:10px;
 }
 
-.Title-1 h2{
+.Title-1 h2 {
     font-size: 1em;
 }
 
-.Title-1 p{
+.Title-1 p {
     font-size: 0.9em;
 }
 
-.Img-1{
+.Img-1 {
     display: block;
     height:110px;
     margin-top:0;
@@ -82,7 +82,7 @@
     background-position: center;
 }
 
-.Img-2{
+.Img-2 {
     display: block;
     height:110px;
     margin-top:0;
@@ -93,7 +93,7 @@
     background-position: center;
 }
 
-.Img-3{
+.Img-3 {
     display: block;
     height:110px;
     margin-top:0;
@@ -104,7 +104,7 @@
     background-position: center;
 }
 
-.Img-4{
+.Img-4 {
     display: block;
     height:110px;
     margin-top:0;
@@ -115,7 +115,7 @@
     background-position: center;
 }
 
-.Img-5{
+.Img-5 {
     display: block;
     height:110px;
     margin-top:0;
@@ -126,7 +126,7 @@
     background-position: center;
 }
 
-.Img-6{
+.Img-6 {
     display: block;
     height:110px;
     margin-top:0;
@@ -137,7 +137,7 @@
     background-position: center;
 }
 
-.ViewMore h3{
+.ViewMore h3 {
     font-size: 1.2em;
     font-weight: bold;
     margin-left: 4%;
@@ -146,15 +146,15 @@
     margin-bottom: 40px;
 }
 
-@media screen and (max-width: 1380px){
+@media screen and (max-width: 1380px) {
 
-    .HousingBox{
+    .HousingBox {
         order: 2;
         width: 100%;
         height: auto;          
     }
 
-    .Grid-1{
+    .Grid-1 {
         display: grid;
         width: 95%;
         height: 80%;
@@ -166,9 +166,9 @@
     }    
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1050px) {
 
-    .Grid-1{
+    .Grid-1 {
         display: grid;
         width: 80%;
         height: 80%;
@@ -179,25 +179,25 @@
         grid-gap: 30px;
     }
 
-    .HousingBox h1{
+    .HousingBox h1 {
         margin-left: 11%;
     }
 
-    .ViewMore h3{
+    .ViewMore h3 {
         margin-left: 11%;
     }
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px) {
 
-    .HousingBox{
+    .HousingBox {
         background-color: white;
     }
 }
 
 @media screen and (max-width: 530px){
 
-    .Grid-1{
+    .Grid-1 {
         display: grid;
         width: 90%;
         height: 80%;
@@ -208,11 +208,11 @@
         grid-gap: 30px;
     }
 
-    .HousingBox h1{
+    .HousingBox h1 {
         margin-left: 6%;
     }
 
-    .ViewMore h3{
+    .ViewMore h3 {
         margin-left: 6%;
     }
 }
