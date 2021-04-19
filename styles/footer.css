@@ -1,7 +1,6 @@
 .Footer {
    width:auto;
    height: 100%;
-   margin:none;
    background-color:#F2F2F2; 
    margin-bottom: -50px;
    padding-bottom: 10px;
@@ -28,7 +27,7 @@
     padding-top: 10px;
 }
 
-@media screen and (max-width: 1345px) {
+@media screen and (max-width: 1380px) {
 
     .Footer-Contain{
         margin-left: 50px;

@@ -16,9 +16,16 @@ body {
 #Container h1 {
     font-size: 1.3em;
 }
+#Container h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#Container h3 {
+    font-size: 1em;
+}
 
 @media screen and (max-width: 1380px) {
-    
     
     #Container {
         width:auto;

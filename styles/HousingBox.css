@@ -1,12 +1,12 @@
 .HousingBox {
     width: 65%;
-    height: auto;
+    height: 100%;
     background-color:#F2F2F2 ;
     border-radius: 10px;
 }
 
-.HousingBox h1 {
-    margin-bottom: 4%;
+.HousingBox h2 {
+    margin: 4% 0 4% 4%;   
 }
 
 .Grid-1 {
@@ -63,12 +63,13 @@
     padding-top:10px;
 }
 
-.Title-1 h2 {
+.Title-1 h3 {
     font-size: 1em;
 }
 
 .Title-1 p {
     font-size: 0.9em;
+    margin-top: -5px;
 }
 
 .Img-1 {
@@ -137,13 +138,12 @@
     background-position: center;
 }
 
-.ViewMore h3 {
-    font-size: 1.2em;
+.ViewMore {
+    font-size: 2em;
     font-weight: bold;
     margin-left: 4%;
     margin-top: 30px;
-    padding-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1380px) {
@@ -163,7 +163,12 @@
         grid-template-columns: 1fr 1fr 1fr ;
         grid-template-rows: 1fr 1fr; 
         grid-gap: 30px;
-    }    
+    }
+    
+    .ViewMore {
+
+        margin-left: 3%;
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -179,11 +184,11 @@
         grid-gap: 30px;
     }
 
-    .HousingBox h1 {
+    .HousingBox h2 {
         margin-left: 11%;
     }
 
-    .ViewMore h3 {
+    .ViewMore {
         margin-left: 11%;
     }
 }
@@ -208,11 +213,13 @@
         grid-gap: 30px;
     }
 
-    .HousingBox h1 {
+    .HousingBox h2 {
         margin-left: 6%;
+        padding-bottom: 15px;
     }
 
-    .ViewMore h3 {
+    .ViewMore {
         margin-left: 6%;
+        padding-top: 10px;
     }
 }

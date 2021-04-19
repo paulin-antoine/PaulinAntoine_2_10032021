@@ -8,46 +8,48 @@ main p {
 }
 
 .SearchField {
-    height:45px;
-    width: 100%;
+    display: flex;
+    width: 370px;
+    height: 46px;   
 }
 
 .SearchIcon {
+    display: flex;
+    width:46px;
+    height: 46px;
+    justify-content: center;
     background-color: #F2F2F2;
-    border:solid 1px;
-    padding:11px 6px 13px 13px;
-    border-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
 }
 
+.SearchIcon i {
+    align-self: center;
+}
+
 input {
-    width: 200px;
-    height: 45px;  
+    width: 250px;
+    height: 46px;  
     border-style:solid;
     border-right: none;
     border-color:#F2F2F2 ;
 } 
 
 .SearchButton {
-    height: 45px;
+    height: 46px;
+    padding: 0 10px 0 10px;
     color:white;
-    border:solid 1px;
-    border-color: #0065FC;
     background-color: #0065FC ;
-    margin:-5px;
+    border: none;
     border-radius:0 10px 10px 0;
     cursor:pointer;  
 }
 
 .SearchButtonMedia {
     display:none;
-    height: 45px;
-    width: 45px;
+    height: 46px;
+    width: 46px;
     color:white;
-    border:solid 1px;
-    border-color: #0065FC;
     background-color: #0065FC ;
-    margin:none;
     border-radius:10px 10px 10px 10px;
     cursor:pointer;  
 }
@@ -62,9 +64,8 @@ input {
 .Filters {
     display: flex;
     flex-wrap: wrap;
-    width:70%;
-    margin-top:20px;
-    justify-content:space-between;
+    width:100%;
+    margin-top:20px;   
 }
 
 .FiltersTitle {
@@ -90,6 +91,7 @@ input {
     font-size: 1em;
     padding-left:40px;
     cursor: pointer; 
+    margin-left: 40px;
 }
 
 .FiltersItems:hover {
@@ -165,25 +167,20 @@ input {
    
     .SearchButton {
         display: none;
-        height: 45px;
+        height: 46px;
         color:white;
-        border:solid 1px;
-        border-color: #0065FC;
         background-color: #0065FC ;
-        margin:-5px;
         border-radius:0 10px 10px 0;
         cursor:pointer;  
     }
 
     .SearchButtonMedia {
         display:inline;
-        height: 45px;
-        width: 45px;
+        height: 46px;
+        width: 46px;
         color:white;
-        border:solid 1px;
-        border-color: #0065FC;
+        border: none;
         background-color: #0065FC ;
-        margin:-5px;
         border-radius:10px 10px 10px 10px;
         cursor:pointer;  
     }
@@ -200,6 +197,11 @@ input {
         margin-top:20px;
         justify-content:space-between;
     }
+    .FiltersItems {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+}
 
 @media screen and (max-width: 780px) {
 
@@ -219,25 +221,12 @@ input {
         height: 45px;
         width: 75%;   
     }
-
 }
-@media screen and (max-width: 280px) {
+
+@media screen and (max-width: 350px) {
 
     input{
         height: 45px;
-        width: 60%;   
+        width: 70%;   
     }
-    
 }
-    
-
-
-
-    
-    
-
-    
-    
-    
-    
-
