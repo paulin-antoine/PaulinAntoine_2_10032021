@@ -1,6 +1,6 @@
 .HousingBox{
     width: 65%;
-    height: 100%;
+    height: auto;
     background-color:#F2F2F2 ;
     border-radius: 10px;
 }

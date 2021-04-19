@@ -27,12 +27,20 @@ header{
    align-self: center;
 }
 
-.HousingLink a,
+
 .ActivityLink a{
    color: black;
    text-decoration: none;
    font-size: 1.1em;
    font-weight: bold;
+}
+.HousingLink a{
+   color: #0065FC;
+   text-decoration: none;
+   font-size: 1.1em;
+   font-weight: bold;
+   padding-top: 43px;
+   border-top: solid #0065FC 5px;
 }
 
 .HousingLink a:hover,
@@ -40,10 +48,6 @@ header{
    color:#0065FC;
    padding-top: 43px;
    border-top: solid #0065FC 5px;
-}
-
-.ActivityLink:hover{
-   text-decoration: none;
 }
 
 .SubscribeSection {
@@ -84,7 +88,7 @@ header{
       width: 50%;
       justify-self: center;
       align-self:center;
-      border-bottom: solid#F2F2F2 5px;
+      border-bottom: solid #0065FC 5px;
       padding-bottom: 15px;
       padding-top: 15px;
       margin-right: 50%;
@@ -109,7 +113,11 @@ header{
       padding-top: 15px;
       margin-left: 50%;
       text-align: center;
-      }
+   }
+   
+   .HousingLink a{
+      border-top: none;
+   }
    
    .HousingLink a:hover,
    .ActivityLink a:hover{
