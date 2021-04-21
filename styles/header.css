@@ -32,13 +32,12 @@ header {
    color: black;
    text-decoration: none;
    font-size: 1.1em;
-   font-weight: bold;
 }
+
 .HousingLink a {
    color: #0065FC;
    text-decoration: none;
    font-size: 1.1em;
-   font-weight: bold;
    padding-top: 43px;
    border-top: solid #0065FC 5px;
 }
